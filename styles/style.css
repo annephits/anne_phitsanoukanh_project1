@@ -339,8 +339,57 @@ section.feature, section.featureTwo {
 
 
 /* FOOTER STYLES */
+    .containerForm {
+        border-top: 1px solid black;
+        text-align: center;
+    }
+
+    .containerForm p {
+        text-align: center;
+        font-size: 10px;
+        margin-bottom: 4em;
+    }
+
+    h4 {
+    margin-top: 3.5em;
+    margin-bottom: 1em;
+    letter-spacing: 2px;
+    }
+
+    button {
+    font-size: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    background-color: #8dd7e9;
+    }
+
+    button:hover {
+    background-color: rbga(0,0,0,.05 #8dd7e9;
+    transition: 1s ease;
+    }
+
+    input {
+    font-size: 10px;
+    padding-right: 6em;
+    padding-left: 6em;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: NotoSans;
+    }
 
 
+    .footerBar {
+        height: 45px;
+    }
+
+    .footerBar p {
+        text-align: center;
+    }
 
 
 /* MEDIA QUERIES */
