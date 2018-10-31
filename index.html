@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>Summit</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,7 +10,6 @@
     <link rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css"/>
-    <title>Summit</title>
 </head>
 
 <body>
@@ -32,17 +32,16 @@
         </div>
 
         <h1>WELCOME TO </br> <span class="bigText">SUMMIT</span></h1>
-        <div class="wrapper clearfix">
-            <div class="bottom-right clearfix">
-                <ul>
-                    <li><a href="http://www.facebook.com/thisishackeryou/"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="http://www.instagram.com/thisishackeryou/"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="http://www.linkedin.com/thisishackeryou/"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="http://www.twitter.com/hackeryou"><i class="fab fa-twitter"></i></a></li> 
-                </ul>
-            </div>
+
+        <div class="bottom-right clearfix">
+            <ul>
+                <li><a href="http://www.facebook.com/thisishackeryou/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="http://www.instagram.com/thisishackeryou/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="http://www.linkedin.com/thisishackeryou/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="http://www.twitter.com/hackeryou"><i class="fab fa-twitter"></i></a></li> 
+            </ul>
         </div>
-        
+
     </header>
 <!-- HEADER ENDS -->
 
@@ -61,7 +60,7 @@
             </div>
         </section>
 
-    <!-- SECTION TWO -->
+    <!-- SECTION TWO: BLOG FEATURE -->
         <section class="feature">
             <!-- TOP FLOAT -->
             <div class="floatTop-wrapper clearfix">
@@ -95,7 +94,7 @@
             </section>
        
 
-    <!-- SECTION THREE -->
+    <!-- SECTION THREE: ICON NAVIGATION -->
         <section class="iconNav">
             <div class="wrapper clearfix">
                 <div class="iconBoxes clearfix">
@@ -115,14 +114,13 @@
             </div>
         </section>
     
-    <!-- SECTION FOUR -->
+    <!-- SECTION FOUR: ABOUT ME-->
         <section class="aboutMe">
             <div class="wrapper">
                 <img class="avatar" src="./assets/image-4.png" alt="An outdoor headshot of a girl smiling with her hair being blown by the wind">
                 <div class="aboutMe-content">
                     <h3 class="title">ABOUT ME</h3>
-                    <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor.Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla.</p>
+                    <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla.</p>
                     <div class="first moreButton">
                         <a href="#">FIND OUT MORE</a>
                     </div>
@@ -132,12 +130,10 @@
 
     <!-- SECTION FIVE -->
         <section class="gallery">
-            <div class="gallery-wrapper">
-                <ul>
-                    <li><img class="mountain" src="assets/image-6.png" alt="Mountain range in the background with green tree tops in the foreground "></li>
-                    <li><img class="ocean" src="assets/image-7.png" alt="Snowy mountain top in front of grey skies and clouds"></li>
-                    <li><img class="trees" src="assets/image-5.png" alt="Snowy mountain in front of a large blue body of water and blue skies with some white clouds"></li>
-                </ul>
+            <div class="gallery-wrapper clearfix">
+                <img class="mountain" src="assets/image-6.png" alt="Mountain range in the background with green tree tops in the foreground ">
+                <img class="ocean" src="assets/image-7.png" alt="Snowy mountain top in front of grey skies and clouds">
+                <img class="trees" src="assets/image-5.png" alt="Snowy mountain in front of a large blue body of water and blue skies with some white clouds">
             </div>
         </section>
 
@@ -146,37 +142,46 @@
 
 <!-- FOOTER STARTS HERE -->
     <footer>
-        <section class="footer-link">
-            <div class="containerForm">
-                <h4>STAY UPDATED</h4>
+
+        <section class="contact clearfix" id="contact">
+      
+            <div>
+                <h5>Stay Updated</h5>
                 <p>Subscribe to our newsletter for updates.</p>
-                <form action="">
-                    <input type="text" placeholder="email address" name="email" required>
-                    <button type="submit" class="signupbtn">SUBSCRIBE</button>
+          
+                <form action="#">
+                    <label for="email" class="visuallyhidden">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email address" required>
+                    <input type="submit" value="Subscribe">
                 </form>
+       
             </div>
-
-            <div class="contact">
-                <ul>
-                    <li>info@email.com</li>
-                    <li>123-456-7890</li>
-                    <li>123 some road,</li>
-                    <li>Toronto, ON</li>
-                </ul>
-            </section>
-
-            <div class="pages">
+         
+            <div>
+                <h5>contact</h5>
+                <address><a href="mailto:info@email.com">info@email.com</a></address>
+                <address>123 - 456 - 7890</address>
+                <address>123 some road,</address>
+                <address>Toronto, ON</address>
+            </div>
+           
+            <div>
+                <h5>Pages</h5>
+     
                 <nav>
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
+            
             </div>
 
-            <div class="recentPosts">
+            <div>
+                <h5>Recent Posts</h5>
+        
                 <nav>
                     <ul>
                         <li><a href="#">Climbing Tips</a></li>
@@ -185,8 +190,11 @@
                         <li><a href="#">Everest</a></li>
                     </ul>
                 </nav>
+          
             </div>
+  
         </section>
+
 
         <section class="footerbar">
             <p>Copyright &copy; 2018 HackerYou</p>
